@@ -126,7 +126,7 @@
     <div class="container-fluid py-4">
         <div class="card">
             <div class="card-header pb-0 px-3">
-                <h6 class="mb-0">{{ __('Profile Information') }}</h6>
+                <h6 class="mb-0">{{ __('Input Barang Gudang') }}</h6>
             </div>
             <div class="card-body pt-4 p-3">
 
@@ -158,7 +158,7 @@
                             <div class="form-group">
                                 <label for="id-stock" class="form-control-label">ID Stock</label>
                                 <div class="@error('user.name')border border-danger rounded-3 @enderror">
-                                    <input name="id_stock" class="form-control" type="text" placeholder="Name"
+                                    <input name="id_stock" class="form-control" type="text" placeholder="Masukkan ID"
                                         id="id-stock">
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                                 <label for="user-jumlah" class="form-control-label">Jumlah Stock</label>
                                 <div class="@error('user.jumlah')border border-danger rounded-3 @enderror">
                                     <input name="jumlah_stock" class="form-control" type="number"
-                                        placeholder="@example.com" id="user-jumlah">
+                                        placeholder="Digit" id="user-jumlah">
                                 </div>
                                 @error('user.jumlah') <div class="text-danger">{{ $message }}</div> @enderror
                             </div>

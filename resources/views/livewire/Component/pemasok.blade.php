@@ -158,7 +158,7 @@
                             <div class="form-group">
                                 <label for="id_pemasok" class="form-control-label">ID Pemasok</label>
                                 <div class="@error('user.id')border border-danger rounded-3 @enderror">
-                                    <input name="id_pemasok" class="form-control" type="text" placeholder="Name"
+                                    <input name="id_pemasok" class="form-control" type="text" placeholder="Masukkan ID"
                                         id="id_pemasok">
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                                 <label for="user-stock" class="form-control-label">Nama Stock</label>
                                 <div class="@error('user.stock')border border-danger rounded-3 @enderror">
                                     <input name="nama_stock" class="form-control" type="text"
-                                        placeholder="@example.com" id="user-stock">
+                                        placeholder="Digit" id="user-stock">
                                 </div>
                                 @error('user.stock') <div class="text-danger">{{ $message }}</div> @enderror
                             </div>

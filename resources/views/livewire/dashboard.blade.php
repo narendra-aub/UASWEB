@@ -6,8 +6,7 @@
               <div class="row">
                 <div class="col-lg-4 col-7">
                   <h6>Tabel Stock</h6>
-                 
-                </div>
+                  </div>
                 <div class="col-lg-4">
                 <div class="bg-white border-radius-lg d-flex me-2">
                 <form class="form" method="get" action="{{ url('searchstock/search') }}">
